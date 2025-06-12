@@ -14,7 +14,7 @@ author_profile: true
 {% endif %}
 
 {% assign publications = site.data.cv.publications | sort: 'releaseDate' | reverse %}
-
+<!-- 
 <h2>Featured Publications</h2>
 <hr />
 {% assign featured = publications | where: "featured", true %}
@@ -55,7 +55,7 @@ author_profile: true
   </div>
   {% endif %}
 </div>
-{% endfor %}
+{% endfor %} -->
 
 
 <h2>Journal Papers</h2>
@@ -105,7 +105,7 @@ author_profile: true
  
 
 
-<h2>Conference Papers</h2>
+<!-- <h2>Conference Papers</h2>
 <hr />
 {% assign conferences = publications | where: "type", "conference" %}
 {% for pub in conferences %}
@@ -148,7 +148,7 @@ author_profile: true
     {% endif %}
   </article>
 </div>
-{% endfor %}
+{% endfor %} -->
 
 <script>
 function toggleBibtex(id) {

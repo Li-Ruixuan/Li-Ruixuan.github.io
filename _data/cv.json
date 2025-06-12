@@ -54,8 +54,22 @@
       "endDate": "2018" 
     }
   ],
-  "skills": [],
-  "languages": [],
+  "skills": [{
+    "name": "Programming",
+    "keywords": ["Python",  "C++" ]
+  },
+  {
+    "name": "Engineering Software",
+    "keywords": ["SolidWorks",  "AutoCAD"]
+  } ],
+  "languages": [ {
+    "language": "Chinese",
+    "fluency": "Native"
+  },
+  {
+    "language": "English",
+    "fluency": "Fluent"
+  } ],
   "interests": [{
       "name": "Medical Imaging, Signal Processing" 
     }, {
