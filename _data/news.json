@@ -1,24 +1,26 @@
 [
-  {
-    "date": "2024-06-01",
-    "title": "Paper accepted at ICRA 2024",
-    "description": "Our paper 'Advanced Control Systems for Robotic Applications' has been accepted at ICRA 2024.",
-    "type": "publication",
-    "link": "/publications/",
-    "highlight": true
-  },
-  {
-    "date": "2024-05-15", 
-    "title": "Received Best Student Paper Award",
-    "description": "Won the Best Student Paper Award at the International Conference on Electromechanical Engineering.",
-    "type": "award",
-    "highlight": true
-  },
-  {
-    "date": "2024-04-20",
-    "title": "Presenting at IROS 2024",
-    "description": "Will be presenting our latest research on autonomous systems at IROS 2024 in Abu Dhabi.",
-    "type": "conference",
-    "link": "https://iros2024.org"
-  } 
+  {  } 
 ]
+
+  // {
+  //   "date": "2024-06-01",
+  //   "title": "Paper accepted at ICRA 2024",
+  //   "description": "Our paper 'Advanced Control Systems for Robotic Applications' has been accepted at ICRA 2024.",
+  //   "type": "publication",
+  //   "link": "/publications/",
+  //   "highlight": true
+  // },
+  // {
+  //   "date": "2024-05-15", 
+  //   "title": "Received Best Student Paper Award",
+  //   "description": "Won the Best Student Paper Award at the International Conference on Electromechanical Engineering.",
+  //   "type": "award",
+  //   "highlight": true
+  // },
+  // {
+  //   "date": "2024-04-20",
+  //   "title": "Presenting at IROS 2024",
+  //   "description": "Will be presenting our latest research on autonomous systems at IROS 2024 in Abu Dhabi.",
+  //   "type": "conference",
+  //   "link": "https://iros2024.org"
+  // } 
