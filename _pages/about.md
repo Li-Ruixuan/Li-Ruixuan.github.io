@@ -13,6 +13,5 @@ redirect_from:
  
 
 
+news
 
-
- 

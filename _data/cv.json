@@ -59,7 +59,7 @@
   "interests": [{
       "name": "Medical Imaging, Signal Processing" 
     }, {
-      "name": "Robotics" 
+      "name": "Robot-assisted Surgery" 
     }, {
       "name": "Machine Learning" 
     }
@@ -95,36 +95,30 @@
       "featured": false
     },
     {
-      "name": "Another Paper Title",
-      "authors": ["Your Name", "Different Coauthor"],
-      "publisher": "Journal Name",
-      "releaseDate": "2023",
-      "type": "journal",
-      "status": "published",
-      "summary": "Another brief description...",
-      "pdf": "/files/paper2.pdf",
+      "name": "Ultrasound-based robot-assisted drilling for minimally invasive pedicle screw placement",
+      "authors": ["Ruixuan Li", "Ayoob Davoodi", "Maikel Timmermans", "Kaat Van Assche", "Orçun Taylan", "Lennart Scheys", "Matthias Tummers", "Gianni Borghesan", "Emmanuel Vander Poorten"],
+      "publisher": "IEEE Transactions on Medical Robotics and Bionics",
+      "releaseDate": "2024",
+      "type": "journal", 
+      "website": "https://ieeexplore.ieee.org/abstract/document/10494398",
       "featured": false
     },
     {
-      "name": "Another Paper Title",
-      "authors": ["Your Name", "Different Coauthor"],
-      "publisher": "Journal Name",
+      "name": "Development and evaluation of robot‐assisted ultrasound navigation system for pedicle screw placement: An ex‐vivo animal validation",
+      "authors": ["Ruixuan Li", "Ayoob Davoodi", "Yuyu Cai", "Gianni Borghesan", "Nicola Cavalcanti", "Christoph J Laux", "Mazda Farshad", "Fabio Carrillo", "Philipp Fürnstahl", "Emmanuel Vander Poorten"],
+      "publisher": "The International Journal of Medical Robotics and Computer Assisted Surgery",
       "releaseDate": "2023",
-      "type": "journal",
-      "status": "published",
-      "summary": "Another brief description...",
-      "pdf": "/files/paper2.pdf",
+      "type": "journal", 
+      "website": "https://onlinelibrary.wiley.com/doi/abs/10.1002/rcs.2590",
       "featured": false
     },
     {
-      "name": "Another Paper Title",
-      "authors": ["Your Name", "Different Coauthor"],
-      "publisher": "Journal Name",
+      "name": "Robot-assisted ultrasound reconstruction for spine surgery: from bench-top to pre-clinical study",
+      "authors": ["Ruixuan Li", "Ayoob Davoodi", "Yuyu Cai", "Kenan Niu", "Gianni Borghesan", "Nicola Cavalcanti", "Aidana Massalimova", "Fabio Carrillo", "Christoph J Laux", "Mazda Farshad", "Philipp Fürnstahl", "Emmanuel Vander Poorten"],
+      "publisher": "International journal of computer assisted radiology and surgery",
       "releaseDate": "2023",
-      "type": "journal",
-      "status": "published",
-      "summary": "Another brief description...",
-      "pdf": "/files/paper2.pdf",
+      "type": "journal", 
+      "website": "https://link.springer.com/article/10.1007/s11548-023-02932-z",
       "featured": false
     }
   ],
