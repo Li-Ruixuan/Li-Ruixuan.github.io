@@ -13,8 +13,7 @@ redirect_from:
 
 # {{ site.data.cv.basics.name }}
 **{{ site.data.cv.basics.label }}**  
-Email: {{ site.data.cv.basics.email }}  
-Website: {{ site.data.cv.basics.website }}
+Email: {{ site.data.cv.basics.email }}   
 
 {% if site.data.cv.interests %}
 Research Interests

@@ -24,7 +24,7 @@
     ]
   },
   "work": [{
-      "company": "KU Leuven",
+      "company": "KU Leuven, Belgium",
       "position": "Postdoctoral Researcher",
       "website": "https://www.kuleuven.be",
       "startDate": "2025-04",
@@ -32,27 +32,27 @@
     }],
   "education": [
     {
-      "institution": "KU Leuven",
+      "institution": "KU Leuven, Belgium",
       "studyType": "Ph.D",  
       "startDate": "2020",
       "endDate": "2024"
     },
     {
-      "institution": "KU Leuven",
+      "institution": "KU Leuven, Belgium",
       "studyType": "M.S.", 
       "area": "Electromechanical Engineering",
       "startDate": "2018",
       "endDate": "2020" 
     },
     {
-      "institution": "KU Leuven",
+      "institution": "KU Leuven, Belgium",
       "studyType": "B.S.",
       "area": "Electromechanical Engineering", 
       "startDate": "2016",
       "endDate": "2018" 
     },
     {
-      "institution": "Southwest Jiaotong University",
+      "institution": "Southwest Jiaotong University, China",
       "studyType": "B.S.", 
       "area": "Mechanical Engineering",
       "startDate": "2014",
