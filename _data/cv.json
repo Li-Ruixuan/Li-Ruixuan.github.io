@@ -2,8 +2,7 @@
   "basics": {
     "name": "Ruixuan Li",
     "email": "ruixuan.li@kuleuven.be",
-    "phone": "",
-    "website": "",
+    "phone": "", 
     "summary": "I am a postdoctoral researcher in the Department of Mechanical Engineering, working on the development of robot ultrasound system for surgery.",
     "location": {
       "address": "",
