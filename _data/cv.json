@@ -16,60 +16,69 @@
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=O6rX1iYAAAAJ&hl=en"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0000-0003-2882-8398"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "Li-Ruixuan",
+        "url": "https://github.com/Li-Ruixuan"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "KU Leuven",
+      "area": "Ph.D",
       "studyType": "",
-      "startDate": "",
+      "startDate": "2020",
+      "endDate": "2024",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "KU Leuven",
+      "area": "M.S. in Electromechanical Engineering",
+      "studyType": "",
+      "startDate": "2018",
+      "endDate": "2020",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "KU Leuven",
+      "area": "B.S. in Electromechanical Engineering",
+      "studyType": "",
+      "startDate": "2016",
       "endDate": "2018",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "Southwest Jiaotong University",
+      "area": "B.S. in Electromechanical Engineering",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "startDate": "2014",
+      "endDate": "2018",
       "gpa": null,
       "courses": []
     }
   ],
   "skills": [],
-  "languages": [],
+  "languages": [English, Chinese],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
+      "name": "A Framework for Fast Automatic Robot Ultrasound Calibration",
+      "publisher": "2021 International Symposium on Medical Robotics (ISMR)",
+      "releaseDate": "2021-10-01",
+      "website": "https://ieeexplore.ieee.org/abstract/document/9661495",
       "summary": "This paper is about the number 1. The number 2 is left for future work."
     },
     {

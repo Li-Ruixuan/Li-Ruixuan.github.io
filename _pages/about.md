@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
- I am apost doc researcher in KU Leuve.
+ I am a post doc researcher in KU Leuven.
 
  You can find my CV here: ../assests/cv-2024.pdf
 
