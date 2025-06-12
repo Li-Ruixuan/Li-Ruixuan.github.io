@@ -86,14 +86,12 @@
       "featured": false
     },
     {
-      "name": "Another Paper Title",
-      "authors": ["Your Name", "Different Coauthor"],
-      "publisher": "Journal Name",
-      "releaseDate": "2023",
-      "type": "journal",
-      "status": "published",
-      "summary": "Another brief description...",
-      "pdf": "/files/paper2.pdf",
+      "name": "Autonomous Robotic Ultrasound Approach for Fetoscope Tracking by Fusing Optical and 2D Ultrasound Data",
+      "authors": ["Yuyu Cai", "Ruixuan Li", "Ayoob Davoodi", "Mouloud Ourak", "Jan Deprest", "Emmanuel Vander Poorten"],
+      "publisher": "IEEE Robotics and Automation Letters",
+      "releaseDate": "2024",
+      "type": "journal", 
+      "website": "https://ieeexplore.ieee.org/abstract/document/10598234",
       "featured": false
     },
     {

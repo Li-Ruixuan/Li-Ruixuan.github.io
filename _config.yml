@@ -22,7 +22,7 @@ repository               : "Li-Ruixuan/Li-Ruixuan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Ruixuan Li"
   pronouns         : "she/her"
   bio              : "I am a postdoctoral researcher in the Department of Mechanical Engineering, working on the development of robot ultrasound system for surgery."

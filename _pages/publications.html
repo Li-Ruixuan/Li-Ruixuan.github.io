@@ -57,50 +57,6 @@ author_profile: true
 </div>
 {% endfor %}
 
-<h2>Conference Papers</h2>
-<hr />
-{% assign conferences = publications | where: "type", "conference" %}
-{% for pub in conferences %}
-<div class="list__item">
-  <article class="archive__item">
-    <h2 class="archive__item-title">{{ pub.name }}</h2>
-    <p class="archive__item-excerpt">
-      <strong>{{ pub.authors | join: ", " }}</strong><br>
-      <em>{{ pub.publisher }}</em>, {{ pub.releaseDate }}
-      {% if pub.status == "under_review" %} <span style="color: #ff9900;">(Under Review)</span>{% endif %}
-      {% if pub.status == "accepted" %} <span style="color: #00cc66;">(Accepted)</span>{% endif %}
-    </p>
-    
-    {% if pub.summary %}
-    <p class="archive__item-excerpt">{{ pub.summary }}</p>
-    {% endif %}
-    
-    <p>
-    {% if pub.pdf %}
-      <a href="{{ base_path }}{{ pub.pdf }}" class="btn btn--primary btn--small">PDF</a>
-    {% endif %}
-    {% if pub.code %}
-      <a href="{{ pub.code }}" class="btn btn--primary btn--small">Code</a>
-    {% endif %}
-    {% if pub.project %}
-      <a href="{{ pub.project }}" class="btn btn--primary btn--small">Project</a>
-    {% endif %}
-    {% if pub.website %}
-      <a href="{{ pub.website }}" class="btn btn--primary btn--small">DOI</a>
-    {% endif %}
-    {% if pub.bibtex %}
-      <a href="#" onclick="toggleBibtex('conf-{{ forloop.index }}')" class="btn btn--primary btn--small">BibTeX</a>
-    {% endif %}
-    </p>
-    
-    {% if pub.bibtex %}
-    <div id="bibtex-conf-{{ forloop.index }}" style="display: none; background: #f5f5f5; padding: 10px; margin-top: 10px; border-radius: 4px;">
-      <pre style="margin: 0; white-space: pre-wrap;">{{ pub.bibtex }}</pre>
-    </div>
-    {% endif %}
-  </article>
-</div>
-{% endfor %}
 
 <h2>Journal Papers</h2>
 <hr />
@@ -146,19 +102,21 @@ author_profile: true
   </article>
 </div>
 {% endfor %}
+ 
 
-<h2>Preprints & Working Papers</h2>
+
+<h2>Conference Papers</h2>
 <hr />
-{% assign preprints = publications | where: "type", "preprint" %}
-{% assign under_review = publications | where: "status", "under_review" %}
-{% assign all_preprints = preprints | concat: under_review | uniq %}
-{% for pub in all_preprints %}
+{% assign conferences = publications | where: "type", "conference" %}
+{% for pub in conferences %}
 <div class="list__item">
   <article class="archive__item">
     <h2 class="archive__item-title">{{ pub.name }}</h2>
     <p class="archive__item-excerpt">
       <strong>{{ pub.authors | join: ", " }}</strong><br>
       <em>{{ pub.publisher }}</em>, {{ pub.releaseDate }}
+      {% if pub.status == "under_review" %} <span style="color: #ff9900;">(Under Review)</span>{% endif %}
+      {% if pub.status == "accepted" %} <span style="color: #00cc66;">(Accepted)</span>{% endif %}
     </p>
     
     {% if pub.summary %}
@@ -178,7 +136,16 @@ author_profile: true
     {% if pub.website %}
       <a href="{{ pub.website }}" class="btn btn--primary btn--small">DOI</a>
     {% endif %}
+    {% if pub.bibtex %}
+      <a href="#" onclick="toggleBibtex('conf-{{ forloop.index }}')" class="btn btn--primary btn--small">BibTeX</a>
+    {% endif %}
     </p>
+    
+    {% if pub.bibtex %}
+    <div id="bibtex-conf-{{ forloop.index }}" style="display: none; background: #f5f5f5; padding: 10px; margin-top: 10px; border-radius: 4px;">
+      <pre style="margin: 0; white-space: pre-wrap;">{{ pub.bibtex }}</pre>
+    </div>
+    {% endif %}
   </article>
 </div>
 {% endfor %}
