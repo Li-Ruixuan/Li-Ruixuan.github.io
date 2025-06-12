@@ -5,32 +5,191 @@ permalink: /publications/
 author_profile: true
 ---
 
+
+
+{% include base_path %}
+
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
+{% assign publications = site.data.cv.publications | sort: 'releaseDate' | reverse %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<h2>Featured Publications</h2>
+<hr />
+{% assign featured = publications | where: "featured", true %}
+{% for pub in featured %}
+<div style="margin-bottom: 30px; padding: 15px; border-left: 4px solid #0066cc;">
+  <h3 style="margin-top: 0;">{{ pub.name }}</h3>
+  <p><strong>{{ pub.authors | join: ", " }}</strong></p>
+  <p><em>{{ pub.publisher }}</em>, {{ pub.releaseDate }}
+  {% if pub.status == "under_review" %} <span style="color: #ff9900;">(Under Review)</span>{% endif %}
+  {% if pub.status == "accepted" %} <span style="color: #00cc66;">(Accepted)</span>{% endif %}
+  </p>
+  
+  {% if pub.summary %}
+  <p><strong>Abstract:</strong> {{ pub.summary }}</p>
+  {% endif %}
+  
+  <p>
+  {% if pub.pdf %}
+    <a href="{{ base_path }}{{ pub.pdf }}" class="btn btn--inverse" style="margin-right: 10px;">PDF</a>
+  {% endif %}
+  {% if pub.code %}
+    <a href="{{ pub.code }}" class="btn btn--inverse" style="margin-right: 10px;">Code</a>
+  {% endif %}
+  {% if pub.project %}
+    <a href="{{ pub.project }}" class="btn btn--inverse" style="margin-right: 10px;">Project</a>
+  {% endif %}
+  {% if pub.website %}
+    <a href="{{ pub.website }}" class="btn btn--inverse" style="margin-right: 10px;">DOI</a>
+  {% endif %}
+  {% if pub.bibtex %}
+    <a href="#" onclick="toggleBibtex('featured-{{ forloop.index }}')" class="btn btn--inverse" style="margin-right: 10px;">BibTeX</a>
+  {% endif %}
+  </p>
+  
+  {% if pub.bibtex %}
+  <div id="bibtex-featured-{{ forloop.index }}" style="display: none; background: #f5f5f5; padding: 10px; margin-top: 10px; border-radius: 4px;">
+    <pre style="margin: 0; white-space: pre-wrap;">{{ pub.bibtex }}</pre>
+  </div>
+  {% endif %}
+</div>
+{% endfor %}
 
+<h2>Conference Papers</h2>
+<hr />
+{% assign conferences = publications | where: "type", "conference" %}
+{% for pub in conferences %}
+<div class="list__item">
+  <article class="archive__item">
+    <h2 class="archive__item-title">{{ pub.name }}</h2>
+    <p class="archive__item-excerpt">
+      <strong>{{ pub.authors | join: ", " }}</strong><br>
+      <em>{{ pub.publisher }}</em>, {{ pub.releaseDate }}
+      {% if pub.status == "under_review" %} <span style="color: #ff9900;">(Under Review)</span>{% endif %}
+      {% if pub.status == "accepted" %} <span style="color: #00cc66;">(Accepted)</span>{% endif %}
+    </p>
+    
+    {% if pub.summary %}
+    <p class="archive__item-excerpt">{{ pub.summary }}</p>
+    {% endif %}
+    
+    <p>
+    {% if pub.pdf %}
+      <a href="{{ base_path }}{{ pub.pdf }}" class="btn btn--primary btn--small">PDF</a>
+    {% endif %}
+    {% if pub.code %}
+      <a href="{{ pub.code }}" class="btn btn--primary btn--small">Code</a>
+    {% endif %}
+    {% if pub.project %}
+      <a href="{{ pub.project }}" class="btn btn--primary btn--small">Project</a>
+    {% endif %}
+    {% if pub.website %}
+      <a href="{{ pub.website }}" class="btn btn--primary btn--small">DOI</a>
+    {% endif %}
+    {% if pub.bibtex %}
+      <a href="#" onclick="toggleBibtex('conf-{{ forloop.index }}')" class="btn btn--primary btn--small">BibTeX</a>
+    {% endif %}
+    </p>
+    
+    {% if pub.bibtex %}
+    <div id="bibtex-conf-{{ forloop.index }}" style="display: none; background: #f5f5f5; padding: 10px; margin-top: 10px; border-radius: 4px;">
+      <pre style="margin: 0; white-space: pre-wrap;">{{ pub.bibtex }}</pre>
+    </div>
+    {% endif %}
+  </article>
+</div>
+{% endfor %}
 
+<h2>Journal Papers</h2>
+<hr />
+{% assign journals = publications | where: "type", "journal" %}
+{% for pub in journals %}
+<div class="list__item">
+  <article class="archive__item">
+    <h2 class="archive__item-title">{{ pub.name }}</h2>
+    <p class="archive__item-excerpt">
+      <strong>{{ pub.authors | join: ", " }}</strong><br>
+      <em>{{ pub.publisher }}</em>, {{ pub.releaseDate }}
+      {% if pub.status == "under_review" %} <span style="color: #ff9900;">(Under Review)</span>{% endif %}
+      {% if pub.status == "accepted" %} <span style="color: #00cc66;">(Accepted)</span>{% endif %}
+    </p>
+    
+    {% if pub.summary %}
+    <p class="archive__item-excerpt">{{ pub.summary }}</p>
+    {% endif %}
+    
+    <p>
+    {% if pub.pdf %}
+      <a href="{{ base_path }}{{ pub.pdf }}" class="btn btn--primary btn--small">PDF</a>
+    {% endif %}
+    {% if pub.code %}
+      <a href="{{ pub.code }}" class="btn btn--primary btn--small">Code</a>
+    {% endif %}
+    {% if pub.project %}
+      <a href="{{ pub.project }}" class="btn btn--primary btn--small">Project</a>
+    {% endif %}
+    {% if pub.website %}
+      <a href="{{ pub.website }}" class="btn btn--primary btn--small">DOI</a>
+    {% endif %}
+    {% if pub.bibtex %}
+      <a href="#" onclick="toggleBibtex('journal-{{ forloop.index }}')" class="btn btn--primary btn--small">BibTeX</a>
+    {% endif %}
+    </p>
+    
+    {% if pub.bibtex %}
+    <div id="bibtex-journal-{{ forloop.index }}" style="display: none; background: #f5f5f5; padding: 10px; margin-top: 10px; border-radius: 4px;">
+      <pre style="margin: 0; white-space: pre-wrap;">{{ pub.bibtex }}</pre>
+    </div>
+    {% endif %}
+  </article>
+</div>
+{% endfor %}
 
+<h2>Preprints & Working Papers</h2>
+<hr />
+{% assign preprints = publications | where: "type", "preprint" %}
+{% assign under_review = publications | where: "status", "under_review" %}
+{% assign all_preprints = preprints | concat: under_review | uniq %}
+{% for pub in all_preprints %}
+<div class="list__item">
+  <article class="archive__item">
+    <h2 class="archive__item-title">{{ pub.name }}</h2>
+    <p class="archive__item-excerpt">
+      <strong>{{ pub.authors | join: ", " }}</strong><br>
+      <em>{{ pub.publisher }}</em>, {{ pub.releaseDate }}
+    </p>
+    
+    {% if pub.summary %}
+    <p class="archive__item-excerpt">{{ pub.summary }}</p>
+    {% endif %}
+    
+    <p>
+    {% if pub.pdf %}
+      <a href="{{ base_path }}{{ pub.pdf }}" class="btn btn--primary btn--small">PDF</a>
+    {% endif %}
+    {% if pub.code %}
+      <a href="{{ pub.code }}" class="btn btn--primary btn--small">Code</a>
+    {% endif %}
+    {% if pub.project %}
+      <a href="{{ pub.project }}" class="btn btn--primary btn--small">Project</a>
+    {% endif %}
+    {% if pub.website %}
+      <a href="{{ pub.website }}" class="btn btn--primary btn--small">DOI</a>
+    {% endif %}
+    </p>
+  </article>
+</div>
+{% endfor %}
+
+<script>
+function toggleBibtex(id) {
+    var element = document.getElementById('bibtex-' + id);
+    if (element.style.display === 'none' || element.style.display === '') {
+        element.style.display = 'block';
+    } else {
+        element.style.display = 'none';
+    }
+}
+</script>

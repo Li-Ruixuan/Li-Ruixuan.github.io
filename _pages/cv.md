@@ -61,21 +61,6 @@ Awards & Honors
 {% endfor %}
 {% endif %}
 
-Publications
-======
-{% if site.data.cv.publications %}
-{% for pub in site.data.cv.publications %}
-* {{ pub.name }} ({{ pub.releaseDate }})
-  {% if pub.summary %}
-  * {{ pub.summary }}
-  {% endif %}
-{% endfor %}
-{% else %}
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-{% endif %}
-
 {% if site.data.cv.volunteer %}
 Service & Volunteer Work
 ======
