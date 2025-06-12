@@ -3,14 +3,13 @@
     "name": "Ruixuan Li",
     "email": "ruixuan.li@kuleuven.be",
     "phone": "",
-    "website": "https://Li-Ruixuan.github.io",
+    "website": "",
     "summary": "I am a postdoctoral researcher in the Department of Mechanical Engineering, working on the development of robot ultrasound system for surgery.",
     "location": {
       "address": "",
       "postalCode": "",
       "city": "Leuven",
-      "countryCode": "BE",
-      "region": ""
+      "countryCode": "BE" 
     },
     "profiles": [
       {
@@ -70,27 +69,20 @@
     {
       "name": "3D ultrasound shape completion and anatomical feature detection for minimally invasive spine surgery",
       "authors": ["Ruixuan Li", "Yuyu Cai", "Ayoob Davoodi", "Gianni Borghesan", "Emmanuel Vander Poorten"],
-      "publisher": "Conference/Journal Name",
-      "releaseDate": "2024",
-      "type": "conference",
-      "status": "published",
-      "summary": "Brief description of your paper...",
-      "website": "https://doi.org/10.1000/yourpaper",
-      "pdf": "/files/paper1.pdf",
-      "code": "https://github.com/yourusername/project",
-      "project": "https://yourproject.com",
-      "bibtex": "@inproceedings{yourname2024title,\n  title={Your Paper Title Here},\n  author={Your Name and Coauthor Name},\n  booktitle={Conference Name},\n  year={2024}\n}",
-      "featured": true
+      "publisher": "Medical & Biological Engineering & Computing",
+      "type": "journal",
+      "releaseDate": "2025", 
+      "website": "https://link.springer.com/article/10.1007/s11517-025-03359-1", 
+      "bibtex": "@article{Li2025,title = {3D ultrasound shape completion and anatomical feature detection for minimally invasive spine surgery}, ISSN = {1741-0444},journal = {Medical &amp; Biological Engineering &amp; Computing}, publisher = {Springer Science and Business Media LLC},author = {Li,  Ruixuan and Cai,  Yuyu and Davoodi,  Ayoob and Borghesan,  Gianni and Vander Poorten,  Emmanuel}, year = {2025},month = apr }",
+      "featured": false
     },
     {
-      "name": "Another Paper Title",
-      "authors": ["Your Name", "Different Coauthor"],
-      "publisher": "Journal Name",
-      "releaseDate": "2023",
-      "type": "journal",
-      "status": "published",
-      "summary": "Another brief description...",
-      "pdf": "/files/paper2.pdf",
+      "name": "Robotic Path Re-Planning for US Reconstruction of the Spine",
+      "authors": ["Kaat Van Assche", "Ruixuan Li", "Ayoob Davoodi", "Matthias Tummers", "Mouloud Ourak", "Gianni Borghesan", "Nicola Cavalcanti", "Philipp Fünstahl", "Emmanuel Vander Poorten"],
+      "publisher": "IEEE Transactions on Medical Robotics and Bionics",
+      "releaseDate": "2025",
+      "type": "journal",  
+      "website": "https://ieeexplore.ieee.org/abstract/document/10934064",  
       "featured": false
     },
     {
