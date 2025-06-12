@@ -9,7 +9,7 @@ redirect_from:
 
 I am a post doc researcher in KU Leuven.
 
-You can find my CV here: [Download CV](../assests/cv-2024.pdf)
+You can find my CV here: [Download CV](../assets/cv_2024.pdf)
  
 
 
