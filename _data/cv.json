@@ -29,44 +29,42 @@
   "education": [
     {
       "institution": "KU Leuven",
-      "area": "Ph.D",
-      "studyType": "",
+      "area": "Ph.D", 
       "startDate": "2020",
-      "endDate": "2024",
-      "gpa": null,
-      "courses": []
+      "endDate": "2024" 
     },
     {
       "institution": "KU Leuven",
-      "area": "M.S. in Electromechanical Engineering",
-      "studyType": "",
+      "area": "M.S. in Electromechanical Engineering", 
       "startDate": "2018",
-      "endDate": "2020",
-      "gpa": null,
-      "courses": []
+      "endDate": "2020" 
     },
     {
       "institution": "KU Leuven",
-      "area": "B.S. in Electromechanical Engineering",
-      "studyType": "",
+      "area": "B.S. in Electromechanical Engineering", 
       "startDate": "2016",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "endDate": "2018" 
     },
     {
       "institution": "Southwest Jiaotong University",
-      "area": "B.S. in Electromechanical Engineering",
-      "studyType": "",
+      "area": "B.S. in Electromechanical Engineering", 
       "startDate": "2014",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "endDate": "2018" 
     }
   ],
   "skills": [],
   "languages": [],
-  "interests": [Medical Robotics, Ultrasound Imaging, Robot Calibration, Machine Learning, Computer Vision],
+  "interests": [{
+      "name": "Ultrasound Imaging",
+      "keywords": ["Ultrasound", "Medical Imaging", "Signal Processing"]
+    }, {
+      "name": "Robotics",
+      "keywords": ["Robotics", "Control Systems", "Automation"]
+    }, {
+      "name": "Machine Learning",
+      "keywords": ["Machine Learning", "Artificial Intelligence", "Data Science"]
+    }
+  ],
   "references": [],
   "publications": [
     {
