@@ -7,58 +7,90 @@ redirect_from:
   - /resume
 ---
 
+
+
 {% include base_path %}
+
+# {{ site.data.cv.basics.name }}
+**{{ site.data.cv.basics.label }}**  
+Email: {{ site.data.cv.basics.email }}  
+Website: {{ site.data.cv.basics.website }}
 
 Education
 ======
-* Ph.D in Version Control Theory, KU Leuven, 2020 - 2024
-* M.S. in Jekyll, KU Leuven, 2014
-* B.S. in GitHub, KU Leuven, 2012
+{% for edu in site.data.cv.education %}
+* **{{ edu.studyType }}** in {{ edu.area }}, {{ edu.institution }} ({{ edu.startDate }}{% if edu.endDate %} - {{ edu.endDate }}{% endif %})
+  {% if edu.gpa %}
+  * GPA: {{ edu.gpa }}
+  {% endif %}
+  {% if edu.courses %}
+  * Relevant Courses: {{ edu.courses | join: ", " }}
+  {% endif %}
+{% endfor %}
 
-Work experience
+Work Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+{% for work in site.data.cv.work %}
+* **{{ work.position }}** - {{ work.company }} ({{ work.startDate }}{% if work.endDate %} - {{ work.endDate }}{% endif %})
+  {% if work.summary %}
+  * {{ work.summary }}
+  {% endif %}
+  {% if work.highlights %}
+  {% for highlight in work.highlights %}
+  * {{ highlight }}
+  {% endfor %}
+  {% endif %}
+{% endfor %}
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+{% if site.data.cv.skills %}
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+{% for skill in site.data.cv.skills %}
+* **{{ skill.name }}**: {{ skill.keywords | join: ", " }}
+{% endfor %}
+{% endif %}
+
+{% if site.data.cv.awards %}
+Awards & Honors
+======
+{% for award in site.data.cv.awards %}
+* **{{ award.title }}** - {{ award.awarder }} ({{ award.date }})
+  {% if award.summary %}
+  * {{ award.summary }}
+  {% endif %}
+{% endfor %}
+{% endif %}
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
+{% if site.data.cv.publications %}
+{% for pub in site.data.cv.publications %}
+* {{ pub.name }} ({{ pub.releaseDate }})
+  {% if pub.summary %}
+  * {{ pub.summary }}
+  {% endif %}
+{% endfor %}
+{% else %}
+  <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+{% endif %}
+
+{% if site.data.cv.volunteer %}
+Service & Volunteer Work
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+{% for vol in site.data.cv.volunteer %}
+* **{{ vol.position }}** - {{ vol.organization }} ({{ vol.startDate }}{% if vol.endDate %} - {{ vol.endDate }}{% endif %})
+  {% if vol.summary %}
+  * {{ vol.summary }}
+  {% endif %}
+{% endfor %}
+{% endif %}
+
+{% if site.data.cv.interests %}
+Research Interests
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+{% for interest in site.data.cv.interests %}
+* {{ interest.name }}{% if interest.keywords %}: {{ interest.keywords | join: ", " }}{% endif %}
+{% endfor %}
+{% endif %}
