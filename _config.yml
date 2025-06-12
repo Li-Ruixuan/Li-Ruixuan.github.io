@@ -22,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Ruixuan Li"
   pronouns         : "she/her"
   bio              : "I am a postdoctoral researcher in the Department of Mechanical Engineering, working on the development of robot ultrasound system for surgery."
@@ -39,33 +39,21 @@ author:
   researchgate     : "https://www.researchgate.net/profile/Ruixuan-Li-13?ev=hdr_xprf"
   scopus           : # URL
  
-
   # Social media   
   instagram        : # Username 
-  linkedin         : Ruixuan Li 
-  mastodon         : # URL
-  medium           : # URL
-  pinterest        : # Username
-  soundcloud       : # Username
-  steam            : # Username
-  telegram         : # URL
-  tumblr           : # Username
-  twitter          : # Username for X / Twitter
-  vine             : # Username
+  linkedin         : Ruixuan Li  
   weibo            : # Username
-  wikipedia        : # Username
-  xing             : # Username
-  youtube          : # Username
-  zhihu            : # Username
+  wikipedia        : # Username 
+  youtube          : # Username 
 
-# Publication Category - The following the list of publication categories and their headings
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+# # Publication Category - The following the list of publication categories and their headings
+# publication_category:
+#   books:
+#     title: 'Books'
+#   manuscripts:
+#     title: 'Journal Articles'    
+#   conferences:
+#     title: 'Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
