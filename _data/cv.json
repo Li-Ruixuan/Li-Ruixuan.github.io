@@ -29,25 +29,28 @@
   "education": [
     {
       "institution": "KU Leuven",
-      "area": "Ph.D", 
+      "studyType": "Ph.D",  
       "startDate": "2020",
-      "endDate": "2024" 
+      "endDate": "2024"
     },
     {
       "institution": "KU Leuven",
-      "area": "M.S. in Electromechanical Engineering", 
+      "studyType": "M.S.", 
+      "area": "Electromechanical Engineering",
       "startDate": "2018",
       "endDate": "2020" 
     },
     {
       "institution": "KU Leuven",
-      "area": "B.S. in Electromechanical Engineering", 
+      "studyType": "B.S.",
+      "area": "Electromechanical Engineering", 
       "startDate": "2016",
       "endDate": "2018" 
     },
     {
       "institution": "Southwest Jiaotong University",
-      "area": "B.S. in Electromechanical Engineering", 
+      "studyType": "B.S.", 
+      "area": "Mechanical Engineering",
       "startDate": "2014",
       "endDate": "2018" 
     }
@@ -55,21 +58,18 @@
   "skills": [],
   "languages": [],
   "interests": [{
-      "name": "Ultrasound Imaging",
-      "keywords": ["Ultrasound", "Medical Imaging", "Signal Processing"]
+      "name": "Medical Imaging, Signal Processing" 
     }, {
-      "name": "Robotics",
-      "keywords": ["Robotics", "Control Systems", "Automation"]
+      "name": "Robotics" 
     }, {
-      "name": "Machine Learning",
-      "keywords": ["Machine Learning", "Artificial Intelligence", "Data Science"]
+      "name": "Machine Learning" 
     }
   ],
   "references": [],
   "publications": [
     {
-      "name": "Your Paper Title Here",
-      "authors": ["Your Name", "Coauthor Name", "Another Author"],
+      "name": "3D ultrasound shape completion and anatomical feature detection for minimally invasive spine surgery",
+      "authors": ["Ruixuan Li", "Yuyu Cai", "Ayoob Davoodi", "Gianni Borghesan", "Emmanuel Vander Poorten"],
       "publisher": "Conference/Journal Name",
       "releaseDate": "2024",
       "type": "conference",
