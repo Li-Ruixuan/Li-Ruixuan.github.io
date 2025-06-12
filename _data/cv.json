@@ -22,12 +22,7 @@
         "network": "ORCID",
         "username": "",
         "url": "https://orcid.org/0000-0003-2882-8398"
-      },
-      {
-        "network": "GitHub",
-        "username": "Li-Ruixuan",
-        "url": "https://github.com/Li-Ruixuan"
-      }
+      } 
     ]
   },
   "work": [],
@@ -70,37 +65,79 @@
     }
   ],
   "skills": [],
-  "languages": [English, Chinese],
-  "interests": [],
+  "languages": [],
+  "interests": [Medical Robotics, Ultrasound Imaging, Robot Calibration, Machine Learning, Computer Vision],
   "references": [],
   "publications": [
     {
-      "name": "A Framework for Fast Automatic Robot Ultrasound Calibration",
-      "publisher": "2021 International Symposium on Medical Robotics (ISMR)",
-      "releaseDate": "2021",
-      "website": "https://ieeexplore.ieee.org/abstract/document/9661495",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Your Paper Title Here",
+      "authors": ["Your Name", "Coauthor Name", "Another Author"],
+      "publisher": "Conference/Journal Name",
+      "releaseDate": "2024",
+      "type": "conference",
+      "status": "published",
+      "summary": "Brief description of your paper...",
+      "website": "https://doi.org/10.1000/yourpaper",
+      "pdf": "/files/paper1.pdf",
+      "code": "https://github.com/yourusername/project",
+      "project": "https://yourproject.com",
+      "bibtex": "@inproceedings{yourname2024title,\n  title={Your Paper Title Here},\n  author={Your Name and Coauthor Name},\n  booktitle={Conference Name},\n  year={2024}\n}",
+      "featured": true
     },
     {
-      "name": "Quantitative Assessment of Calibration Motion Profiles in Robotic-assisted Ultrasound System",
-      "publisher": "Journal 1",
-      "releaseDate": "2022",
-      "website": "https://ieeexplore.ieee.org/abstract/document/9807524",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Another Paper Title",
+      "authors": ["Your Name", "Different Coauthor"],
+      "publisher": "Journal Name",
+      "releaseDate": "2023",
+      "type": "journal",
+      "status": "published",
+      "summary": "Another brief description...",
+      "pdf": "/files/paper2.pdf",
+      "featured": false
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Another Paper Title",
+      "authors": ["Your Name", "Different Coauthor"],
+      "publisher": "Journal Name",
+      "releaseDate": "2023",
+      "type": "journal",
+      "status": "published",
+      "summary": "Another brief description...",
+      "pdf": "/files/paper2.pdf",
+      "featured": false
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Another Paper Title",
+      "authors": ["Your Name", "Different Coauthor"],
+      "publisher": "Journal Name",
+      "releaseDate": "2023",
+      "type": "journal",
+      "status": "published",
+      "summary": "Another brief description...",
+      "pdf": "/files/paper2.pdf",
+      "featured": false
+    },
+    {
+      "name": "Another Paper Title",
+      "authors": ["Your Name", "Different Coauthor"],
+      "publisher": "Journal Name",
+      "releaseDate": "2023",
+      "type": "journal",
+      "status": "published",
+      "summary": "Another brief description...",
+      "pdf": "/files/paper2.pdf",
+      "featured": false
+    },
+    {
+      "name": "Another Paper Title",
+      "authors": ["Your Name", "Different Coauthor"],
+      "publisher": "Journal Name",
+      "releaseDate": "2023",
+      "type": "journal",
+      "status": "published",
+      "summary": "Another brief description...",
+      "pdf": "/files/paper2.pdf",
+      "featured": false
     }
   ],
   "presentations": [

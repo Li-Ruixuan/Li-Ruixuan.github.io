@@ -16,6 +16,14 @@ redirect_from:
 Email: {{ site.data.cv.basics.email }}  
 Website: {{ site.data.cv.basics.website }}
 
+{% if site.data.cv.interests %}
+Research Interests
+======
+{% for interest in site.data.cv.interests %}
+* {{ interest.name }}{% if interest.keywords %}: {{ interest.keywords | join: ", " }}{% endif %}
+{% endfor %}
+{% endif %}
+
 Education
 ======
 {% for edu in site.data.cv.education %}
@@ -72,10 +80,3 @@ Service & Volunteer Work
 {% endfor %}
 {% endif %}
 
-{% if site.data.cv.interests %}
-Research Interests
-======
-{% for interest in site.data.cv.interests %}
-* {{ interest.name }}{% if interest.keywords %}: {{ interest.keywords | join: ", " }}{% endif %}
-{% endfor %}
-{% endif %}
