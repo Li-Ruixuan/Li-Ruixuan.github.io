@@ -23,7 +23,13 @@
       } 
     ]
   },
-  "work": [],
+  "work": [{
+      "company": "KU Leuven",
+      "position": "Postdoctoral Researcher",
+      "website": "https://www.kuleuven.be",
+      "startDate": "2025-04",
+      "endDate": "Present" 
+    }],
   "education": [
     {
       "institution": "KU Leuven",

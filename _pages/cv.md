@@ -24,17 +24,6 @@ Research Interests
 {% endfor %}
 {% endif %}
 
-Education
-======
-{% for edu in site.data.cv.education %}
-* **{{ edu.studyType }}** in {{ edu.area }}, {{ edu.institution }} ({{ edu.startDate }}{% if edu.endDate %} - {{ edu.endDate }}{% endif %})
-  {% if edu.gpa %}
-  * GPA: {{ edu.gpa }}
-  {% endif %}
-  {% if edu.courses %}
-  * Relevant Courses: {{ edu.courses | join: ", " }}
-  {% endif %}
-{% endfor %}
 
 Work Experience
 ======
@@ -47,6 +36,19 @@ Work Experience
   {% for highlight in work.highlights %}
   * {{ highlight }}
   {% endfor %}
+  {% endif %}
+{% endfor %}
+
+
+Education
+======
+{% for edu in site.data.cv.education %}
+* **{{ edu.studyType }}** in {{ edu.area }}, {{ edu.institution }} ({{ edu.startDate }}{% if edu.endDate %} - {{ edu.endDate }}{% endif %})
+  {% if edu.gpa %}
+  * GPA: {{ edu.gpa }}
+  {% endif %}
+  {% if edu.courses %}
+  * Relevant Courses: {{ edu.courses | join: ", " }}
   {% endif %}
 {% endfor %}
 
