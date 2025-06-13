@@ -9,11 +9,11 @@ redirect_from:
 
 
 
-{% include base_path %}
+<!-- {% include base_path %} -->
 
-# {{ site.data.cv.basics.name }}
-**{{ site.data.cv.basics.label }}**  
-Email: {{ site.data.cv.basics.email }}   
+<!-- # {{ site.data.cv.basics.name }}
+**{{ site.data.cv.basics.label }}**   -->
+<!-- Email: {{ site.data.cv.basics.email }}    -->
 
 {% if site.data.cv.interests %}
 Research Interests
