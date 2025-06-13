@@ -18,12 +18,8 @@ Email: {{ site.data.cv.basics.email }}    -->
   <article class="archive__item">
     <h3 class="archive__item-title">{{ work.position }}</h3>
     <p class="archive__item-excerpt">
-      <strong>{{ work.company }}</strong><br>,  <em>{{ work.startDate }}{% if work.endDate %} - {{ work.endDate }}{% else %} - Present{% endif %}</em>
-    </p>
-    
-    {% if work.summary %}
-    <p class="archive__item-excerpt">{{ work.summary }}</p>
-    {% endif %}
+      <strong>{{ work.company }}</strong><br> | <em>{{ work.startDate }}{% if work.endDate %} - {{ work.endDate }}{% else %} - Present{% endif %}</em>
+    </p> 
     
     {% if work.highlights %}
     <ul>
@@ -43,7 +39,7 @@ Email: {{ site.data.cv.basics.email }}    -->
   <article class="archive__item">
     <h3 class="archive__item-title">{{ edu.studyType }} in {{ edu.area }}</h3>
     <p class="archive__item-excerpt">
-      <strong>{{ edu.institution }}</strong><br>,  <em>{{ edu.startDate }}{% if edu.endDate %} - {{ edu.endDate }}{% else %} - Present{% endif %}</em>
+      <strong>{{ edu.institution }}</strong><br> | <em>{{ edu.startDate }}{% if edu.endDate %} - {{ edu.endDate }}{% else %} - Present{% endif %}</em>
     </p>     
   </article>
 </div>
