@@ -36,9 +36,7 @@ Email: {{ site.data.cv.basics.email }}    -->
 <div class="list__item">
   <article class="archive__item">
     <h3 class="archive__item-title">{{ edu.studyType }} in {{ edu.area }}</h3>
-    <p class="archive__item-excerpt">
-      <p class="archive__item-excerpt"><strong>{{ edu.institution }}</strong> | <em>{{ edu.startDate }}{% if edu.endDate %} - {{ edu.endDate }}{% else %} - Present{% endif %}</em></p>
-    </p>     
+    <p class="archive__item-excerpt"><strong>{{ edu.institution }}</strong> | <em>{{ edu.startDate }}{% if edu.endDate %} - {{ edu.endDate }}{% else %} - Present{% endif %}</em></p>
   </article>
 </div>
 {% endfor %}
