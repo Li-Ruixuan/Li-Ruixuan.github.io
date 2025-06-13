@@ -2,18 +2,16 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
+author_profile: true 
 ---
 
 
 
 {% include base_path %}
 
-# {{ site.data.cv.basics.name }}
+<!-- # {{ site.data.cv.basics.name }}
 **{{ site.data.cv.basics.label }}**  
-<!-- Email: {{ site.data.cv.basics.email }}    -->
+Email: {{ site.data.cv.basics.email }}    -->
 
 
 
@@ -65,7 +63,7 @@ redirect_from:
 {% endif %}
 
 
-<!-- {% if site.data.cv.volunteer %}
+{% if site.data.cv.volunteer %}
 Service & Volunteer Work
 ======
 {% for vol in site.data.cv.volunteer %}
@@ -74,7 +72,7 @@ Service & Volunteer Work
   * {{ vol.summary }}
   {% endif %}
 {% endfor %}
-{% endif %} -->
+{% endif %}
 
 
 You can find my CV here: [Download](./assets/cv_2024.pdf)
