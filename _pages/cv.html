@@ -5,7 +5,7 @@ permalink: /cv/
 author_profile: true 
 ---
 
-<!-- {% include base_path %} -->
+{% include base_path %}
 
 <!-- # {{ site.data.cv.basics.name }}
 **{{ site.data.cv.basics.label }}**  
@@ -30,6 +30,7 @@ Email: {{ site.data.cv.basics.email }}    -->
 </div>
 {% endfor %}
 
+
 <h2>Education</h2>
 <hr />
 {% for edu in site.data.cv.education %}
@@ -40,6 +41,31 @@ Email: {{ site.data.cv.basics.email }}    -->
   </article>
 </div>
 {% endfor %}
+
+
+{% if site.data.cv.experience %}
+<h2>Project Experience</h2>
+<hr />
+{% for exp in site.data.cv.experience %}
+<div class="list__item">
+  <article class="archive__item">
+    <h3 class="archive__item-title">{{ exp.name }}</h3>
+    <p class="archive__item-excerpt"><strong>{{ exp.organization }}</strong> | <em>{{ exp.startDate }}{% if exp.endDate %} - {{ exp.endDate }}{% else %} - Present{% endif %}</em></p>
+    
+    {% if exp.summary %}
+    <p class="archive__item-excerpt">{{ exp.summary }}</p>
+    {% endif %}
+    
+    {% if exp.website %}
+    <p>
+      <a href="{{ project.website }}" class="btn btn--primary btn--small">View Project</a>
+    </p>
+    {% endif %}
+  </article>
+</div>
+{% endfor %}
+{% endif %}
+
 
 {% if site.data.cv.skills %}
 <h2>Skills</h2>

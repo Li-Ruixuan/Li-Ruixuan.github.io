@@ -59,6 +59,34 @@
       "endDate": "2018" 
     }
   ],
+  "experience": [
+    {
+      "name": "FAROS (Functionally Accurate RObotic Surgery)",
+      "organization": "Researcher, EU H2020 Project",
+      "website": "https://h2020faros.eu/",
+      "startDate": "2021-01",
+      "endDate": "2024-06" 
+      // "highlights": [
+      //   "Achieved 95% accuracy on test dataset",
+      //   "Implemented data preprocessing pipeline",
+      //   "Deployed model using Flask web framework",
+      //   "Collaborated with team of 3 developers"
+      // ]
+    },
+    {
+      "name": "Radar-SPINE (Radiation-free Diagnostic Tool for Spine Surgery)",
+      "organization": "Researcher, FWO project",
+      "website": "https://research.kuleuven.be/portal/en/project/3E200027",
+      "startDate": "2020-01",
+      "endDate": "2023-12" 
+      // "highlights": [
+      //   "Frontend: React.js with responsive design",
+      //   "Backend: Django REST API",
+      //   "Database: PostgreSQL with optimized queries",
+      //   "Deployed on AWS with CI/CD pipeline"
+      // ]
+    }
+  ],
   "skills": [{
     "name": "Programming",
     "keywords": ["Python",  "C++" ]
