@@ -10,13 +10,9 @@ redirect_from:
 I am a postdoctoral researcher in the Department of Mechanical Engineering, working on the development of robot ultrasound system for surgery.
 
 
-{% if site.data.cv.interests %}
-<h2>Research Interests<h2>
-======
-{% for interest in site.data.cv.interests %}
-* {{ interest.name }}{% if interest.keywords %}: {{ interest.keywords | join: ", " }}{% endif %}
-{% endfor %}
-{% endif %}
+
+<h2 style="margin-top: 40px; color: #2c3e50;">🔍 Research Interests</h2> 
+Medical Imaging, Signal Processing, Robot-assisted Surgery, Machine Learning
 
 
 
