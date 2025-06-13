@@ -10,13 +10,18 @@ redirect_from:
 I am a postdoctoral researcher in the Department of Mechanical Engineering, working on the development of robot ultrasound system for surgery.
 
 
- 
+{% if site.data.cv.interests %}
+<h2>Research Interests<h2>
+======
+{% for interest in site.data.cv.interests %}
+* {{ interest.name }}{% if interest.keywords %}: {{ interest.keywords | join: ", " }}{% endif %}
+{% endfor %}
+{% endif %}
 
 
 
 <!-- News Section -->
 <h2 style="margin-top: 40px; color: #2c3e50;">📰 Recent News</h2>
-
 <div style="max-height: 400px; overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 8px; padding: 15px; background-color: #fafafa;">
   {% assign recent_news = site.data.news | sort: 'date' | reverse | slice: 0, 8 %}
   {% for item in recent_news %}

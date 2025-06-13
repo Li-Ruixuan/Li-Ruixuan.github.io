@@ -10,21 +10,12 @@ redirect_from:
 
 
 {% include base_path %}
-
 <!-- # {{ site.data.cv.basics.name }}
 **{{ site.data.cv.basics.label }}**   -->
 <!-- Email: {{ site.data.cv.basics.email }}    -->
 
-{% if site.data.cv.interests %}
-Research Interests
-======
-{% for interest in site.data.cv.interests %}
-* {{ interest.name }}{% if interest.keywords %}: {{ interest.keywords | join: ", " }}{% endif %}
-{% endfor %}
-{% endif %}
 
-
-Work Experience
+<h2>Work Experience<h2>
 ======
 {% for work in site.data.cv.work %}
 * **{{ work.position }}** - {{ work.company }} ({{ work.startDate }}{% if work.endDate %} - {{ work.endDate }}{% endif %})
@@ -39,7 +30,7 @@ Work Experience
 {% endfor %}
 
 
-Education
+<h2>Education<h2>
 ======
 {% for edu in site.data.cv.education %}
 * **{{ edu.studyType }}** in {{ edu.area }}, {{ edu.institution }} ({{ edu.startDate }}{% if edu.endDate %} - {{ edu.endDate }}{% endif %})
@@ -52,7 +43,7 @@ Education
 {% endfor %}
 
 {% if site.data.cv.skills %}
-Skills
+<h2>Skills<h2>
 ======
 {% for skill in site.data.cv.skills %}
 * **{{ skill.name }}**: {{ skill.keywords | join: ", " }}
@@ -60,7 +51,7 @@ Skills
 {% endif %}
 
 {% if site.data.cv.awards %}
-Awards & Honors
+<h2>Awards & Honors<h2>
 ======
 {% for award in site.data.cv.awards %}
 * **{{ award.title }}** - {{ award.awarder }} ({{ award.date }})
@@ -70,7 +61,7 @@ Awards & Honors
 {% endfor %}
 {% endif %}
 
-{% if site.data.cv.volunteer %}
+<!-- {% if site.data.cv.volunteer %}
 Service & Volunteer Work
 ======
 {% for vol in site.data.cv.volunteer %}
@@ -79,7 +70,7 @@ Service & Volunteer Work
   * {{ vol.summary }}
   {% endif %}
 {% endfor %}
-{% endif %}
+{% endif %} -->
 
 
 You can find my CV here: [Download](./assets/cv_2024.pdf)
