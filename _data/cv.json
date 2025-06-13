@@ -65,7 +65,7 @@
   },
   {
     "name": "Engineering Software",
-    "keywords": ["SolidWorks",  "AutoCAD"]
+    "keywords": ["ROS", "SolidWorks",  "AutoCAD"]
   } ],
   "languages": [ {
     "language": "Chinese",
