@@ -18,8 +18,7 @@ Email: {{ site.data.cv.basics.email }}    -->
   <article class="archive__item">
     <h3 class="archive__item-title">{{ work.position }}</h3>
     <p class="archive__item-excerpt">
-      <strong>{{ work.company }}</strong><br>
-      <em>{{ work.startDate }}{% if work.endDate %} - {{ work.endDate }}{% else %} - Present{% endif %}</em>
+      <strong>{{ work.company }}</strong><br>,  <em>{{ work.startDate }}{% if work.endDate %} - {{ work.endDate }}{% else %} - Present{% endif %}</em>
     </p>
     
     {% if work.summary %}
@@ -44,17 +43,8 @@ Email: {{ site.data.cv.basics.email }}    -->
   <article class="archive__item">
     <h3 class="archive__item-title">{{ edu.studyType }} in {{ edu.area }}</h3>
     <p class="archive__item-excerpt">
-      <strong>{{ edu.institution }}</strong><br>
-      <em>{{ edu.startDate }}{% if edu.endDate %} - {{ edu.endDate }}{% else %} - Present{% endif %}</em>
-    </p>
-    
-    {% if edu.gpa %}
-    <p class="archive__item-excerpt"><strong>GPA:</strong> {{ edu.gpa }}</p>
-    {% endif %}
-    
-    {% if edu.courses %}
-    <p class="archive__item-excerpt"><strong>Relevant Courses:</strong> {{ edu.courses | join: ", " }}</p>
-    {% endif %}
+      <strong>{{ edu.institution }}</strong><br>,  <em>{{ edu.startDate }}{% if edu.endDate %} - {{ edu.endDate }}{% else %} - Present{% endif %}</em>
+    </p>     
   </article>
 </div>
 {% endfor %}
@@ -92,25 +82,6 @@ Email: {{ site.data.cv.basics.email }}    -->
 {% endfor %}
 {% endif %}
 
-{% if site.data.cv.volunteer %}
-<h2>Service & Volunteer Work</h2>
-<hr />
-{% for vol in site.data.cv.volunteer %}
-<div class="list__item">
-  <article class="archive__item">
-    <h3 class="archive__item-title">{{ vol.position }}</h3>
-    <p class="archive__item-excerpt">
-      <strong>{{ vol.organization }}</strong><br>
-      <em>{{ vol.startDate }}{% if vol.endDate %} - {{ vol.endDate }}{% else %} - Present{% endif %}</em>
-    </p>
-    
-    {% if vol.summary %}
-    <p class="archive__item-excerpt">{{ vol.summary }}</p>
-    {% endif %}
-  </article>
-</div>
-{% endfor %}
-{% endif %}
 
 <div style="margin-top: 40px; text-align: center;">
   <a href="{{ base_path }}/assets/cv_2024.pdf" class="btn btn--primary">Download Full CV (PDF)</a>
