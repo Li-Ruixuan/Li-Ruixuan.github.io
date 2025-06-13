@@ -18,10 +18,7 @@ Email: {{ site.data.cv.basics.email }}    -->
   <article class="archive__item"> 
     <h3 class="archive__item-title">{{ work.position }}</h3>
     <p class="archive__item-excerpt"><strong>{{ work.company }}</strong> | <em>{{ work.startDate }}{% if work.endDate %} - {{ work.endDate }}{% else %} - Present{% endif %}</em></p>
-
-    {% if work.summary %}
-    <p class="archive__item-excerpt">{{ work.summary }}</p>
-    {% endif %}
+    <br>{% if work.summary %}<p class="archive__item-excerpt">{{ work.summary }}</p>{% endif %}
   </article>
 </div>
 {% endfor %}
@@ -34,9 +31,8 @@ Email: {{ site.data.cv.basics.email }}    -->
   <article class="archive__item">
     <h3 class="archive__item-title">{{ edu.studyType }} in {{ edu.area }}</h3>
     <p class="archive__item-excerpt"><strong>{{ edu.institution }}</strong> | <em>{{ edu.startDate }}{% if edu.endDate %} - {{ edu.endDate }}{% else %} - Present{% endif %}</em></p>
-  
     {% if edu.summary %}
-    <p class="archive__item-excerpt">{{ edu.summary }}</p>
+    class="archive__item-excerpt">{{ edu.summary }} 
     {% endif %}
   </article>
 </div>
@@ -51,16 +47,7 @@ Email: {{ site.data.cv.basics.email }}    -->
   <article class="archive__item">
     <h3 class="archive__item-title">{{ exp.name }}</h3>
     <p class="archive__item-excerpt"><strong>{{ exp.organization }}</strong> | <em>{{ exp.startDate }}{% if exp.endDate %} - {{ exp.endDate }}{% else %} - Present{% endif %}</em></p>
-    
-    {% if exp.summary %}
-    <p class="archive__item-excerpt">{{ exp.summary }}</p>
-    {% endif %}
-    
-    {% if exp.website %}
-    <p>
-      <a href="{{ project.website }}" class="btn btn--primary btn--small">View Project</a>
-    </p>
-    {% endif %}
+    {% if exp.summary %}<p class="archive__item-excerpt">{{ exp.summary }}</p>{% endif %}</em>{% if exp.website %} | <a href="{{ exp.website }}" target="_blank">Website</a>{% endif %}
   </article>
 </div>
 {% endfor %}
