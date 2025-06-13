@@ -28,14 +28,16 @@
       "position": "Postdoctoral Researcher",
       "website": "https://www.kuleuven.be",
       "startDate": "2025-04",
-      "endDate": "Present" 
+      "endDate": "Present",
+      "summary": "Funded by KU Leuven Postdoctoral Fellowships (PDM)"     
     }],
   "education": [
     {
       "institution": "KU Leuven, Belgium",
       "studyType": "Ph.D",  
       "startDate": "2020",
-      "endDate": "2024"
+      "endDate": "2024",
+      "summary": "Funded by Research Foundation - Flanders (FWO) PhD Fellowship"     
     },
     {
       "institution": "KU Leuven, Belgium",
