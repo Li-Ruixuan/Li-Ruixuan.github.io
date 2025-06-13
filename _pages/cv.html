@@ -17,7 +17,7 @@ Email: {{ site.data.cv.basics.email }}    -->
 <div class="list__item">
   <article class="archive__item"> 
     <h3 class="archive__item-title">{{ work.position }}</h3>
-    <p class="archive__item-excerpt"><strong>{{ work.company }}</strong> | <em>{{ work.startDate }}{% if work.endDate %} - {{ work.endDate }}{% else %} - Present{% endif %} | </em>{% if work.summary %}<br>{{ work.summary }}{% endif %}</p>
+    <p class="archive__item-excerpt"><strong>{{ work.company }}</strong> | <em>{{ work.startDate }}{% if work.endDate %} - {{ work.endDate }}{% else %} - Present{% endif %} | </em>{% if work.summary %} {{ work.summary }}{% endif %}</p>
   </article>
 </div>
 {% endfor %}
@@ -29,7 +29,7 @@ Email: {{ site.data.cv.basics.email }}    -->
 <div class="list__item">
   <article class="archive__item">
     <h3 class="archive__item-title">{{ edu.studyType }} in {{ edu.area }}</h3>
-    <p class="archive__item-excerpt"><strong>{{ edu.institution }}</strong> | <em>{{ edu.startDate }}{% if edu.endDate %} - {{ edu.endDate }}{% else %} - Present{% endif %} | </em>{% if edu.summary %}<br>{{ edu.summary }}{% endif %}</p>
+    <p class="archive__item-excerpt"><strong>{{ edu.institution }}</strong> | <em>{{ edu.startDate }}{% if edu.endDate %} - {{ edu.endDate }}{% else %} - Present{% endif %} | </em>{% if edu.summary %} {{ edu.summary }}{% endif %}</p>
   </article>
 </div>
 {% endfor %}
