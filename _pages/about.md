@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoctoral researcher in KU Leuven. My research interest are 
+I am a postdoctoral researcher in the Department of Mechanical Engineering, working on the development of robot ultrasound system for surgery.
 
 You can find my CV here: [Download CV](./assets/cv_2024.pdf)
  

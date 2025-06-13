@@ -23,9 +23,7 @@ repository               : "Li-Ruixuan/Li-Ruixuan.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Ruixuan Li"
-  pronouns         : "she/her"
-  bio              : "I am a postdoctoral researcher in the Department of Mechanical Engineering, working on the development of robot ultrasound system for surgery."
+  name             : "Ruixuan Li" 
   location         : "Leuven, Belgium"
   employer         : "KU Leuven"
   uri              : "https://www.kuleuven.be/wieiswie/en/person/00137815"
