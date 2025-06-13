@@ -16,7 +16,7 @@ Email: {{ site.data.cv.basics.email }}    -->
 
 
 <h2>Work Experience<h2>
-======
+<hr />
 {% for work in site.data.cv.work %}
 * **{{ work.position }}** - {{ work.company }} ({{ work.startDate }}{% if work.endDate %} - {{ work.endDate }}{% endif %})
   {% if work.summary %}
@@ -31,7 +31,7 @@ Email: {{ site.data.cv.basics.email }}    -->
 
 
 <h2>Education<h2>
-======
+<hr />
 {% for edu in site.data.cv.education %}
 * **{{ edu.studyType }}** in {{ edu.area }}, {{ edu.institution }} ({{ edu.startDate }}{% if edu.endDate %} - {{ edu.endDate }}{% endif %})
   {% if edu.gpa %}
@@ -45,15 +45,16 @@ Email: {{ site.data.cv.basics.email }}    -->
 
 {% if site.data.cv.skills %}
 <h2>Skills<h2>
-======
+<hr />
 {% for skill in site.data.cv.skills %}
 * **{{ skill.name }}**: {{ skill.keywords | join: ", " }}
 {% endfor %}
 {% endif %}
 
+
 {% if site.data.cv.awards %}
 <h2>Awards & Honors<h2>
-======
+<hr />
 {% for award in site.data.cv.awards %}
 * **{{ award.title }}** - {{ award.awarder }} ({{ award.date }})
   {% if award.summary %}
@@ -64,8 +65,8 @@ Email: {{ site.data.cv.basics.email }}    -->
 
 
 {% if site.data.cv.volunteer %}
-Service & Volunteer Work
-======
+<h2>Service & Volunteer Work</h2>
+<hr />
 {% for vol in site.data.cv.volunteer %}
 * **{{ vol.position }}** - {{ vol.organization }} ({{ vol.startDate }}{% if vol.endDate %} - {{ vol.endDate }}{% endif %})
   {% if vol.summary %}
