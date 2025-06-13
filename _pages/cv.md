@@ -11,9 +11,10 @@ redirect_from:
 
 {% include base_path %}
 
-<!-- # {{ site.data.cv.basics.name }}
-**{{ site.data.cv.basics.label }}**   -->
+# {{ site.data.cv.basics.name }}
+**{{ site.data.cv.basics.label }}**  
 <!-- Email: {{ site.data.cv.basics.email }}    -->
+
 
 
 <h2>Work Experience<h2>
@@ -43,6 +44,7 @@ redirect_from:
   {% endif %}
 {% endfor %}
 
+
 {% if site.data.cv.skills %}
 <h2>Skills<h2>
 ======
@@ -61,6 +63,7 @@ redirect_from:
   {% endif %}
 {% endfor %}
 {% endif %}
+
 
 <!-- {% if site.data.cv.volunteer %}
 Service & Volunteer Work
