@@ -81,3 +81,6 @@ Service & Volunteer Work
 {% endfor %}
 {% endif %}
 
+
+You can find my CV here: [Download](./assets/cv_2024.pdf)
+

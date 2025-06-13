@@ -9,7 +9,7 @@ redirect_from:
 
 I am a postdoctoral researcher in the Department of Mechanical Engineering, working on the development of robot ultrasound system for surgery.
 
-You can find my CV here: [Download CV](./assets/cv_2024.pdf)
+
  
 
 
