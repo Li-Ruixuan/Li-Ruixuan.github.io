@@ -1,0 +1,29 @@
+courses:
+  - title: "Your Course Title"
+    type: "Graduate course"
+    venue: "KU Leuven, Department of Mechanical Engineering"
+    date: "2024"
+    role: "Teaching Assistant"
+    description: "Brief description of the course and your responsibilities."
+
+  - title: "Another Course"
+    type: "Undergraduate course"
+    venue: "KU Leuven, Department of Mechanical Engineering"
+    date: "2023"
+    role: "Lecturer"
+    description: "Brief description."
+
+theses:
+  - student: "Student Name"
+    title: "Thesis Title"
+    degree: "Master of Science in Mechanical Engineering"
+    year: "2024"
+    status: "completed"   # or "ongoing"
+    description: "Brief description of the thesis topic."   # optional
+
+  - student: "Another Student"
+    title: "Another Thesis Title"
+    degree: "Master of Science in Biomedical Engineering"
+    year: "2025"
+    status: "ongoing"
+    description: "Brief description."
