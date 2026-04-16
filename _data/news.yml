@@ -1,10 +1,6 @@
-
-
-{
-  "date": "2025-11",
-  "title": "KUKA Innovation Award 2025 -- Winner ",
-  "type": "award",
-  "description": "Our team from KU Leuven won the Medical Robotics Challenge 2.0 at MEDICA for our innovative ultrasound-guided spine surgery robot.",
-  "link": "https://www.kuka.com/en-be/company/press/news/2025/11/winner-innovation-award-2025",
-  "highlight": true
-} 
+- date: "2025-11"
+  title: "KUKA Innovation Award 2025 -- Winner"
+  type: "award"
+  description: "Our team from KU Leuven won the Medical Robotics Challenge 2.0 at MEDICA for our innovative ultrasound-guided spine surgery robot."
+  link: "https://www.kuka.com/en-be/company/press/news/2025/11/winner-innovation-award-2025"
+  highlight: true
