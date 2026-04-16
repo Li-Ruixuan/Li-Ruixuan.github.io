@@ -10,7 +10,7 @@ author_profile: true
   <h3>{{ thesis.title }}</h3>
   <strong>Student:</strong> {{ thesis.student }} <br>
   <strong>Year:</strong> {{ thesis.year }}, <strong>Degree:</strong> {{ thesis.degree }}<br> 
-  <strong>Description:</strong> {{ thesis.description }}</p>
+  <p><strong>Description:</strong> {{ thesis.description }}</p>
   <hr>
 {% endfor %}
 
@@ -18,7 +18,7 @@ author_profile: true
 {% for item in site.data.teaching.courses %}
   <h3>{{ item.title }}, {{ item.date }}</h3> 
   <strong>Role:</strong> {{ item.role }}, <em>{{ item.venue }}</em><br>
-  <strong>Description:</strong> {{ item.description }}</p>
+  <p><strong>Description:</strong> {{ item.description }}</p>
   <hr>
 {% endfor %}
 

@@ -9,7 +9,7 @@ author_profile: true
 **{{ item.date }}** — {{ item.title }}
 
 
-<p><strong>Description:</strong> {{ thesis.description }}</p>> 
+<p><strong>Description:</strong> {{ item.description }}</p>
 {% if item.link %}[Read more]({{ item.link }}){% endif %}
 
 ---
