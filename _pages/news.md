@@ -8,7 +8,8 @@ author_profile: true
 {% for item in site.data.news %}
 **{{ item.date }}** — {{ item.title }}
 
-{{ item.description }}
+
+<p><strong>Description:</strong> {{ thesis.description }}</p>> 
 {% if item.link %}[Read more]({{ item.link }}){% endif %}
 
 ---
