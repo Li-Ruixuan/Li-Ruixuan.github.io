@@ -29,6 +29,13 @@
       "website": "https://www.kuleuven.be",
       "startDate": "2025-04",
       "endDate": "Present",
+      "summary": "Funded by FWO Junior postdoctoral fellowship"     
+    }, {
+      "company": "KU Leuven, Belgium",
+      "position": "Postdoctoral Researcher",
+      "website": "https://www.kuleuven.be",
+      "startDate": "2025-04",
+      "endDate": "Present",
       "summary": "Funded by KU Leuven Postdoctoral Fellowships (PDM)"     
     }],
   "education": [
@@ -83,7 +90,7 @@
   },
   {
     "name": "Engineering Software",
-    "keywords": ["ROS", "SolidWorks",  "AutoCAD"]
+    "keywords": ["ROS", "Pytorch", "TensorFlow", "Unity", "SolidWorks" ]
   } ],
   "languages": [ {
     "language": "Chinese",
@@ -103,6 +110,16 @@
   ],
   "references": [],
   "publications": [
+     {
+      "name": "A large, paired dataset of robotic and handheld lumbar spine ultrasound with ground-truth CT benchmarking",
+      "authors": ["Nicola A Cavalcanti", "Ruixuan Li", "Yuyu Cai", "Ayoob Davoodi", "Gianni Borghesan", "Emmanuel Vander Poorten"],
+      "publisher": "Scientific Data",
+      "type": "journal",
+      "releaseDate": "2025", 
+      "website": "https://https://www.nature.com/articles/s41597-025-06047-9", 
+      "bibtex": "@article{Cavalcanti2025,  title = {A large,  paired dataset of robotic and handheld lumbar spine ultrasound with ground-truth CT benchmarking},volume = {12}, ISSN = {2052-4463}, number = {1}, journal = {Scientific Data}, publisher = {Springer Science and Business Media LLC}, author = {Cavalcanti,  Nicola A. and Li,  Ruixuan and Arango,  Laura and Davoodi,  Ayoob and Van Assche,  Kaat and Ao,  Yunke and Massalimova,  Aidana and Salehi,  Mehrdad and Zingg,  Lukas and G\"{o}tschi,  Tobias and Borghesan,  Gianni and Laux,  Christoph J. and Sutter,  Reto and Farshad,  Mazda and Tummers,  Matthias and F\"{u}rnstahl,  Philipp and Vander Poorten,  Emmanuel and Carrillo,  Fabio}, year = {2025}, month = nov }",
+      "featured": true
+    },
     {
       "name": "3D ultrasound shape completion and anatomical feature detection for minimally invasive spine surgery",
       "authors": ["Ruixuan Li", "Yuyu Cai", "Ayoob Davoodi", "Gianni Borghesan", "Emmanuel Vander Poorten"],
@@ -111,15 +128,6 @@
       "releaseDate": "2025", 
       "website": "https://link.springer.com/article/10.1007/s11517-025-03359-1", 
       "bibtex": "@article{Li2025,title = {3D ultrasound shape completion and anatomical feature detection for minimally invasive spine surgery}, ISSN = {1741-0444},journal = {Medical &amp; Biological Engineering &amp; Computing}, publisher = {Springer Science and Business Media LLC},author = {Li,  Ruixuan and Cai,  Yuyu and Davoodi,  Ayoob and Borghesan,  Gianni and Vander Poorten,  Emmanuel}, year = {2025},month = apr }",
-      "featured": false
-    },
-    {
-      "name": "Robotic Path Re-Planning for US Reconstruction of the Spine",
-      "authors": ["Kaat Van Assche", "Ruixuan Li", "Ayoob Davoodi", "Matthias Tummers", "Mouloud Ourak", "Gianni Borghesan", "Nicola Cavalcanti", "Philipp Fünstahl", "Emmanuel Vander Poorten"],
-      "publisher": "IEEE Transactions on Medical Robotics and Bionics",
-      "releaseDate": "2025",
-      "type": "journal",  
-      "website": "https://ieeexplore.ieee.org/abstract/document/10934064",  
       "featured": false
     },
     {
@@ -141,22 +149,13 @@
       "featured": false
     },
     {
-      "name": "Development and evaluation of robot‐assisted ultrasound navigation system for pedicle screw placement: An ex‐vivo animal validation",
-      "authors": ["Ruixuan Li", "Ayoob Davoodi", "Yuyu Cai", "Gianni Borghesan", "Nicola Cavalcanti", "Christoph J Laux", "Mazda Farshad", "Fabio Carrillo", "Philipp Fürnstahl", "Emmanuel Vander Poorten"],
-      "publisher": "The International Journal of Medical Robotics and Computer Assisted Surgery",
-      "releaseDate": "2023",
-      "type": "journal", 
-      "website": "https://onlinelibrary.wiley.com/doi/abs/10.1002/rcs.2590",
-      "featured": false
-    },
-    {
       "name": "Robot-assisted ultrasound reconstruction for spine surgery: from bench-top to pre-clinical study",
       "authors": ["Ruixuan Li", "Ayoob Davoodi", "Yuyu Cai", "Kenan Niu", "Gianni Borghesan", "Nicola Cavalcanti", "Aidana Massalimova", "Fabio Carrillo", "Christoph J Laux", "Mazda Farshad", "Philipp Fürnstahl", "Emmanuel Vander Poorten"],
       "publisher": "International journal of computer assisted radiology and surgery",
       "releaseDate": "2023",
       "type": "journal", 
       "website": "https://link.springer.com/article/10.1007/s11548-023-02932-z",
-      "featured": false
+      "featured": true
     }
   ],
   "presentations": [
