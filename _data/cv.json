@@ -81,7 +81,7 @@
       "organization": "Researcher, FWO project",
       "website": "https://research.kuleuven.be/portal/en/project/3E200027",
       "startDate": "2020-01",
-      "endDate": "2023-12"  
+      "endDate": "2023-12"
     }
   ],
   "skills": [{
@@ -91,7 +91,8 @@
   {
     "name": "Engineering Software",
     "keywords": ["ROS", "Pytorch", "TensorFlow", "Unity", "SolidWorks" ]
-  } ],
+  } 
+],
   "languages": [ {
     "language": "Chinese",
     "fluency": "Native"
@@ -99,7 +100,8 @@
   {
     "language": "English",
     "fluency": "Fluent"
-  } ],
+  } 
+],
   "interests": [{
       "name": "Medical Imaging, Signal Processing" 
     }, {
@@ -116,8 +118,8 @@
       "publisher": "Scientific Data",
       "type": "journal",
       "releaseDate": "2025", 
-      "website": "https://https://www.nature.com/articles/s41597-025-06047-9", 
-      "bibtex": "@article{Cavalcanti2025,  title = {A large,  paired dataset of robotic and handheld lumbar spine ultrasound with ground-truth CT benchmarking},volume = {12}, ISSN = {2052-4463}, number = {1}, journal = {Scientific Data}, publisher = {Springer Science and Business Media LLC}, author = {Cavalcanti,  Nicola A. and Li,  Ruixuan and Arango,  Laura and Davoodi,  Ayoob and Van Assche,  Kaat and Ao,  Yunke and Massalimova,  Aidana and Salehi,  Mehrdad and Zingg,  Lukas and G\"{o}tschi,  Tobias and Borghesan,  Gianni and Laux,  Christoph J. and Sutter,  Reto and Farshad,  Mazda and Tummers,  Matthias and F\"{u}rnstahl,  Philipp and Vander Poorten,  Emmanuel and Carrillo,  Fabio}, year = {2025}, month = nov }",
+      "website": "https://www.nature.com/articles/s41597-025-06047-9", 
+      "bibtex": "@article{Cavalcanti2025, title = {A large,  paired dataset of robotic and handheld lumbar spine ultrasound with ground-truth CT benchmarking},volume = {12}, ISSN = {2052-4463}, number = {1}, journal = {Scientific Data}, publisher = {Springer Science and Business Media LLC}, author = {Cavalcanti,  Nicola A. and Li,  Ruixuan and Arango,  Laura and Davoodi,  Ayoob and Van Assche,  Kaat and Ao,  Yunke and Massalimova,  Aidana and Salehi,  Mehrdad and Zingg,  Lukas and G\"{o}tschi,  Tobias and Borghesan,  Gianni and Laux,  Christoph J. and Sutter,  Reto and Farshad,  Mazda and Tummers,  Matthias and F\"{u}rnstahl,  Philipp and Vander Poorten,  Emmanuel and Carrillo,  Fabio}, year = {2025}, month = nov }",
       "featured": true
     },
     {
@@ -165,20 +167,6 @@
       "date": "2012-03-01",
       "location": "San Francisco, CA, USA",
       "description": ""
-    }, 
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
     }
   ],
   "teaching": [
@@ -187,13 +175,6 @@
       "institution": "University 1, Department",
       "date": "2014-01-01",
       "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
       "description": ""
     }
   ],
