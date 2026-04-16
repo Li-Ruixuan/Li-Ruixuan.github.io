@@ -1,29 +1,27 @@
 courses:
-  - title: "Your Course Title"
-    type: "Graduate course"
+  - title: "Robotics: Exercise Session" 
     venue: "KU Leuven, Department of Mechanical Engineering"
     date: "2024"
     role: "Teaching Assistant"
-    description: "Brief description of the course and your responsibilities."
+    description: "Help the students to acquire a good understanding and skill in formulating positioning and manipulation tasks in 3D space. The students learn how to identify, model, select and control robots and kinematic structures in order to execute desired trajectories and motion profiles in 3D space. During these exercise sessions, practical experience and deeper understanding of the course material will be acquired."
 
-  - title: "Another Course"
-    type: "Undergraduate course"
+  - title: "Vibrations and Waves: Exercise Session" 
     venue: "KU Leuven, Department of Mechanical Engineering"
     date: "2023"
-    role: "Lecturer"
-    description: "Brief description."
+    role: "Teaching Assistant"
+    description: "Help students to learn basic scientific-disciplinary knowledge and understanding of the field of engineering technology. The students will acquire a good understanding of the fundamental principles of vibrations and waves, and their applications in engineering technology. During these exercise sessions, practical experience and deeper understanding of the course material will be acquired."
 
 theses:
-  - student: "Student Name"
-    title: "Thesis Title"
-    degree: "Master of Science in Mechanical Engineering"
-    year: "2024"
-    status: "completed"   # or "ongoing"
-    description: "Brief description of the thesis topic."   # optional
+  - student: "Esther Delrue"
+    title: "Trackerless Ultrasound Reconstruction for Computer-Aided Orthopedic Surgery"
+    degree: "Master of Engineering Science"
+    year: "2023 - 2024"
+    status: "completed and published as conference paper in CRAS 2025" 
+  
+  - student: "Jeroen Berendsen, Nicolaas Ooms"
+    title: "Development of smart ball tip feeler using AI for breach detection"
+    degree: "Master of Engineering Technology"
+    year: "2021 -2022"
+    status: "completed and published as conference paper in Hamlyn Symposium 2024" 
 
-  - student: "Another Student"
-    title: "Another Thesis Title"
-    degree: "Master of Science in Biomedical Engineering"
-    year: "2025"
-    status: "ongoing"
-    description: "Brief description."
+ 
