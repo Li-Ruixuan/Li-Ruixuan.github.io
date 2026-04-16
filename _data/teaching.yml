@@ -1,12 +1,12 @@
 courses:
   - title: "Robotics: Exercise Session" 
-    venue: "KU Leuven, Department of Mechanical Engineering"
+    venue: "KU Leuven, Department of Engineering Technology"
     date: "2024"
     role: "Teaching Assistant"
     description: "Help the students to acquire a good understanding and skill in formulating positioning and manipulation tasks in 3D space. The students learn how to identify, model, select and control robots and kinematic structures in order to execute desired trajectories and motion profiles in 3D space. During these exercise sessions, practical experience and deeper understanding of the course material will be acquired."
 
   - title: "Vibrations and Waves: Exercise Session" 
-    venue: "KU Leuven, Department of Mechanical Engineering"
+    venue: "KU Leuven, Department of Engineering Technology"
     date: "2023"
     role: "Teaching Assistant"
     description: "Help students to learn basic scientific-disciplinary knowledge and understanding of the field of engineering technology. The students will acquire a good understanding of the fundamental principles of vibrations and waves, and their applications in engineering technology. During these exercise sessions, practical experience and deeper understanding of the course material will be acquired."
@@ -17,7 +17,7 @@ theses:
     degree: "Master of Engineering Science"
     year: "2023 - 2024"
     status: "completed and published as conference paper in CRAS 2025" 
-  
+
   - student: "Jeroen Berendsen, Nicolaas Ooms"
     title: "Development of smart ball tip feeler using AI for breach detection"
     degree: "Master of Engineering Technology"

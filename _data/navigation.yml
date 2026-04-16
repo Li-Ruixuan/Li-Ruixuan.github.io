@@ -26,10 +26,7 @@ main:
     url: /teaching/    
     
   # - title: "Portfolio"
-  #   url: /portfolio/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
+  #   url: /portfolio/ 
     
   # - title: "Guide"
   #   url: /markdown/
